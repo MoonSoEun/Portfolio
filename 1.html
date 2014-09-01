@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+
+Step #4 Goal : 디테일한 화면 구성 추가
+// musco: DOCTYPE 앞에 무언가 적으면 웹브라우저가 레이아웃을 깨먹을 수 있어요.
+
+-->
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+
+<body>
+	<div class="side-menu">
+		<div class="hd">
+			<a href="140725_3d.html">
+				<div class="menu-item">
+					<!-- & 대신 &amp;를 쓰세요. -->
+					<span class="threed active">3D&amp;Motion Graphic</span>
+					<div class="strike"></div>
+				</div>
+			</a>
+			
+			<a href="140725_2d.html">
+				<div class="menu-item">
+					<span class="twod">2D Graphic</span>
+					<div class="strike"></div>
+				</div>
+			</a>
+			
+			<a href="140725_drawing.html">
+				<div class="menu-item">
+					<span class="drawing">Drawing</span>
+					<div class="strike"></div>
+				</div>
+			</a>
+
+			<a href="140725_about.html">
+				<div class="menu-item">
+					<span class="about">About</span>
+					<div class="strike"></div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<!-- 이미지 태그에 margin을 주지 말고 div에 줘요.
+		 이미지 태그에 마진을 주면 div의 크기가 너무 커집니다. -->
+		<div class="item threedimg1">
+			<img src="3dimg1.jpg" />
+			<span class="threed-text">Dessert Brand Ailee Promotion Video</span>
+		</div>
+		<div class="item threedimg2">
+			<img src="3dimg2.jpg" />
+			<span class="threed-text">Object Artwork</span>
+		</div>
+		<div class="item threedimg3">
+			<img src="3dimg3.jpg" />
+			<span class="threed-text">Country Symbol Contest exhibit</span>
+		</div>
+	</div>
+</body>
+</html>

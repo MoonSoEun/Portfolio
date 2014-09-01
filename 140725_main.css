@@ -1,0 +1,10 @@
+
+	@font-face {
+		font-family: 'JosefinSansBold';
+		src: url('JosefinSans-Bold.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'JosefinSans';
+		src: url('JosefinSans-Regular.ttf') format('truetype');
+	}
+body {background-image: url(background2.jpg); background-repeat: repeat;}
